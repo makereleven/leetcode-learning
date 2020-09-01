@@ -29,7 +29,7 @@ import java.util.Queue;
  * [15,7]
  * ]
  */
-public class LeetCode32 {
+public class Jianzhi32_2 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         List<List<Integer>> res = new ArrayList<>();
