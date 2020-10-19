@@ -20,5 +20,13 @@ package com.leetcode;
  * @date 2020/10/10
  */
 public class Jianzhi51 {
+    public int reversePairs(int[] nums) {
+        return 0;
+    }
 
+    public static void main(String[] args) {
+        Jianzhi51 j = new Jianzhi51();
+        int[] s = {7, 5, 6, 4};
+        j.reversePairs(s);
+    }
 }
