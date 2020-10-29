@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.位运算;
 
 /**
  * 剑指 Offer 56 - I. 数组中数字出现的次数
