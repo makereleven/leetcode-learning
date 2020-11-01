@@ -40,6 +40,8 @@ public class Jianzhi59 {
                 res[i] = deque.peekFirst();  // 记录窗口最大值
         }
         return res;
+
+
     }
 
     public static void main(String[] args) {
