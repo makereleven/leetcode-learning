@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.DFS;
 
 /**
  * 547. 朋友圈
