@@ -22,6 +22,7 @@ public class LeetCode5 {
         int n = s.length();
         boolean[][] dp = new boolean[n][n];
         String ans = "";
+        //l代表长度
         for (int l = 0; l < n; ++l) {
             for (int i = 0; i + l < n; ++i) {
                 int j = i + l;
@@ -38,6 +39,13 @@ public class LeetCode5 {
             }
         }
         return ans;
+
+
+    }
+
+    public static void main(String[] args) {
+        LeetCode5 leetCode5 = new LeetCode5();
+        leetCode5.longestPalindrome("babad");
     }
 
 }
